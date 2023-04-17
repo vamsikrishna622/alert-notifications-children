@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.responsive-container {
+  display: flex;
+  width: 85%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    width: 75%;
+    max-width: 1024px;
+  }
+}
+.alert-heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #0f172a;
+}
+@media screen and (min-width: 768px) {
+  .alert-heading {
+    font-size: 40px;
+  }
+}
+.description-container {
+  width: 78%;
+}
+.heading {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-top: 0;
+}
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+}
+.button {
+  height: 32px;
+  width: 32px;
+  align-self: flex-start;
+}
+.success {
+  color: #2dca73;
+}
+.error {
+  color: #ff0b37;
+}
+.error-icon {
+  color: #ff0b37;
+}
+
+.success-icon {
+  color: #2dca73;
+}
+.warning {
+  color: #ffb800;
+}
+.warning-icon {
+  color: #ffb800;
+}
+.info {
+  color: #0f81e0;
+}
+.info-icon {
+  color: #0f81e0;
+}
